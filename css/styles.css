@@ -6,17 +6,27 @@
 
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: black; 
+  background-color: whitesmoke; 
   min-height: 100vh;
   display: flex;
   justify-content: center;
 }
 
-.product-page {
- display: flex;
- width: 100%;
- height: 35vh; /* Only the top 1/3 of the screen */
- background-color: white;
+.image-header {
+  display: flex;
+  width: 100%;
+  height: 35vh; /* Only the top 1/3 of the screen */
+  overflow: hidden;
+  background-color: white;
 }
 
+.header-img {
+  width: 33.333%;
+  height: 100%;
+  object-fit: cover;
+  border-right: 2px solid #ffffff;
+}
 
+.header-img:last-child {
+  border-right: none;
+}
