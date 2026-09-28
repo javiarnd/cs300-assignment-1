@@ -45,8 +45,9 @@ body {
 .product-details {
   display:inline-block;
   background-color: ghostwhite;
-  padding: 40px;
-  margin: 50px;
+  padding: 40px 60px 40px 60px;
+  margin: 20px 20px 0px 20px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
 }
